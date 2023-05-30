@@ -1,0 +1,135 @@
+
+body{
+    background-image:url(images/background.jpg);
+    text-align: center;
+    }
+
+
+    .icon-bar {
+      width: 100%; /* Full-width */
+      background-color: #555; /* Dark-grey background */
+      overflow: auto; /* Overflow due to float */
+    }
+    
+    .icon-bar a {
+      float: left; /* Float links side by side */
+      text-align: center; /* Center-align text */
+      width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+      padding: 12px 0; /* Some top and bottom padding */
+      transition: all 0.3s ease; /* Add transition for hover effects */
+      color: white; /* White text color */
+      font-size: 36px; /* Increased font size */
+    }
+    
+    .icon-bar a:hover {
+      background-color: #597d79; /* Add a hover color */
+    }
+    
+    .active {
+      background-color: #95cab7; /* Add an active/current color */
+    }
+    
+    .active {
+      background-color: #4b6576; /* Add an active/current color */}
+
+.container{
+ position: relative;
+ text-align: center;
+}
+.image-gallery{
+display:flex;
+flex-direction: row;
+flex-wrap: nowrap;
+
+
+}
+
+#video:hover{
+
+  width:89%
+}
+#video1:hover{
+ 
+  width:89%
+}
+#video2:hover{
+
+  width:89%
+}
+
+h1{
+  font-family: monospace;
+  font-weight: bolder;
+  font-size:100px;
+  text-align: center;
+}
+h2{
+  font-family: monospace;
+  text-align: center;
+  font-size: 45px;;
+}
+h3{
+  font-family: monospace;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+
+.flex-container{
+  position: relative;
+  text-align: center;
+
+ }
+ .projects{
+ display:flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ background-color: rgb(109, 120, 120);
+ margin-top: 20px;
+ }
+ 
+
+ .container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container {
+  display:flex;
+  position: relative;
+  background-color: #444b48;
+
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #455256;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+

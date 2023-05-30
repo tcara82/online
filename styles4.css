@@ -1,0 +1,86 @@
+body{
+    background-image:url(images/background.jpg);
+    text-align: center;
+  }
+  .icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #7a807c; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+  }
+  
+  .icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+  }
+  
+  .icon-bar a:hover {
+    background-color: #76b4ad; /* Add a hover color */
+  }
+  
+  .active {
+    background-color: #95cab7; /* Add an active/current color */
+  }
+  
+  .active {
+    background-color: #74a291; /* Add an active/current color */}
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+
+  
+  * {box-sizing:border-box}
+
+
+  h1{
+    font-family: monospace;
+    font-weight:bolder;
+    font-size:150px
+  }
+  h1:hover{
+    color: rgb(245, 255, 252);
+    font-size:200px;
+    text-shadow: black ;
+  }
+  h2{
+    font-family: monospace;
+    text-align: center;
+    font-size: 65px;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .flex-container{
+    display:flex;
+    flex-direction: row;
+
+    
+  }
+  #Digital:hover{
+    opacity:75%;
+
+    
+  }
+  #google:hover{
+    opacity:75%;
+    background-color:pink;
+    
+  }
+  #ads:hover{
+    opacity:75%;
+    background-color:pink;
+  }
+    
+p{
+  font-weight: bold;
+  font-size:39px;
+}
+
